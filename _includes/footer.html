@@ -1,0 +1,35 @@
+<footer class="text-center font">
+  <div class="footer-above">
+    <div class="container">
+      <div class="row">
+        <!-- Servers widget -->
+        <div class="col-md-4">
+          {% for server in site.data.server %}
+          <a href="https://www.gametracker.com/server_info/{{ server.ip }}:{{ server.port }}/" target="_blank"><img src="https://cache.gametracker.com/server_info/{{ server.ip }}:{{ server.port }}/b_350_20_39362a_39362a_ffffff_111111.png" border="0" width="350" height="20" alt=""/></a>
+          {% endfor %}
+        </div>
+        <div class="col-md-4">
+        </div>
+        <!-- Social links -->
+        <div class="col-md-4">
+          <ul class="list-inline">
+            {% for link in site.data.link %}
+            <li>
+              <a href="{{ link.url }}" class="btn-social btn-outline" target="_blank"><i class="fab fa-{{ link.name }}"></i></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          Copyright © 75RI 2020
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

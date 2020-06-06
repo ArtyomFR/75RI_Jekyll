@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% if page.url == "/" %}
+{% include header.html %}
+{% endif %}
+<section id="portfolio">
+  <div class="container {% if page.url == '/' %}header-container{% endif %}">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="subtitle">{{ page.subtitle }}</h2>
+        <hr class="division">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+- name: Mission
+  ip:   164.132.201.51
+  port: 2402
+- name: OPEX
+  ip:   164.132.201.51
+  port: 2302
+- name: Teamspeak
+  ip:   164.132.201.51
+  port: 9987

@@ -1,0 +1,19 @@
+# Site settings
+title: "75RI"
+subtitle: "Équipe de jeu semi-milsim sur ArmA 3"
+email: ""
+author: ""
+description: ""
+url: ""
+baseurl: "/75RI_Jekyll_Theme"
+
+# Collections
+collections:
+  documentation:
+    output: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  highlighter: rouge

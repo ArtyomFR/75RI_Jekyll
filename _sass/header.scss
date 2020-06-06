@@ -1,0 +1,42 @@
+header {
+  background: no-repeat url(../img/header_background_bis.png);
+  background-size: cover;
+  min-height: 80vh;
+}
+
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: $white;
+}
+
+.header-container {
+  padding-top: 50px !important;
+}
+
+.header-logo {
+  width: 176px;
+}
+
+.header-title { padding-top: 25px; }
+
+.header-name {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-name, .header-description {
+  padding: 10px;
+    background-color: $dark;
+    border-radius: 5px;
+}
+
+
+
+@media (min-width: 768px)
+{
+header { min-height: 100vh;}
+header .container { padding-top: 150px; padding-bottom: 100px; }
+.header-name { font-size: 4em; }
+.header-title { padding-top: 288px; }
+}

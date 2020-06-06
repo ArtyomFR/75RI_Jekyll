@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <wrapper class="d-flex flex-column">
+      {% include nav.html %}
+      <main class="flex-fill">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </wrapper>
+  </body>
+</html>

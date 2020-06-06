@@ -1,0 +1,39 @@
+footer {
+  color: $dark-light;
+}
+
+footer .footer-above {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: $dark;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: $dark-bis;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $dark-light;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-social:hover
+{
+  color: rgba(#FFF, .75);
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px $dark-light;
+    font-size: 20px;
+    color: $dark-light;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
