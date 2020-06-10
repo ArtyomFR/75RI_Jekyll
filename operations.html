@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Opérations"
+---
+<section>
+  <div class="container">
+    {% for operation in site.operations reversed %}
+    <h2 class="text-center">{{ operation.name }}</h2>
+    <h4 class="text-center">{{ operation.dates}}</h4>
+    <hr/>
+    <div class="row">
+      <div class="col">
+        {{ operation.content }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

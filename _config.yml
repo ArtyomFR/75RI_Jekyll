@@ -7,6 +7,10 @@ description: ""
 url: ""
 baseurl: "/75RI_Jekyll_Theme"
 
+# Collections
+collections:
+  operations:
+
 # Markdown
 markdown: kramdown
 kramdown:
