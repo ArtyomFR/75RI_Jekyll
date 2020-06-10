@@ -16,17 +16,6 @@
           <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link | prepend:site.baseurl }}">{{ item.name }}</a>
         </li>
         {% endfor %}
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Documentation
-          </a>
-          <div class="dropdown-menu">
-            {% for doc in site.documentation %}
-            <a class="dropdown-item {% if doc.url == page.url %}active{% endif %}" href="{{ doc.url | prepend:site.baseurl }}">{{ doc.name }}</a>
-            {% endfor %}
-          </div>
-        </li>
       </ul>
     </div>
   </div>

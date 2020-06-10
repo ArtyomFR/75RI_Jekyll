@@ -7,11 +7,6 @@ description: ""
 url: ""
 baseurl: "/75RI_Jekyll_Theme"
 
-# Collections
-collections:
-  documentation:
-    output: true
-
 # Markdown
 markdown: kramdown
 kramdown:
