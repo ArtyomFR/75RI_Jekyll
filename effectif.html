@@ -1,0 +1,42 @@
+---
+layout: default
+title: "Effectif"
+subtitle: "L'effectif"
+---
+<section>
+  <div class="container text-center">
+    <h2>Officiers</h2>
+    <hr/>
+    <div class="row justify-content-center">
+    {% for item in site.data.effectif.officier %}
+      <div class="col-sm-3">
+        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <h3>{{ item.name }}</h3>
+        {{ item.grade | capitalize_all }}
+      </div>
+    {% endfor %}
+    </div>
+    <h2>Sous-Officiers</h2>
+    <hr/>
+    <div class="row justify-content-center">
+    {% for item in site.data.effectif.sousofficier %}
+      <div class="col-sm-3">
+        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <h3>{{ item.name }}</h3>
+        {{ item.grade | capitalize_all }}
+      </div>
+    {% endfor %}
+    </div>
+    <h2>Militaires du rang</h2>
+    <hr/>
+    <div class="row justify-content-center">
+    {% for item in site.data.effectif.militairedurang %}
+      <div class="col-sm-3">
+        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <h3>{{ item.name }}</h3>
+        {{ item.grade | capitalize_all }}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
