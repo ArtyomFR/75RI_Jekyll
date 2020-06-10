@@ -9,9 +9,9 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.officier %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
-        {{ item.grade | capitalize_all }}
+        {{ item.grade }}
       </div>
     {% endfor %}
     </div>
@@ -20,9 +20,9 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.sousofficier %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
-        {{ item.grade | capitalize_all }}
+        {{ item.grade }}
       </div>
     {% endfor %}
     </div>
@@ -31,9 +31,9 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.militairedurang %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
-        {{ item.grade | capitalize_all }}
+        {{ item.grade }}
       </div>
     {% endfor %}
     </div>
