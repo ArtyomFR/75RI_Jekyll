@@ -1,5 +1,3 @@
-  - name: Heavy
-    grade:  "Caporal-chef Première Classe"
   - name: Ragarnoy
     grade:  "Caporal-chef"
   - name: Toto
@@ -31,12 +29,16 @@
   - name: Sonnok
     grade:  "Caporal"
   - name: Prisci
-    grade:  "Première Classe"
+    grade:  "Caporal"
   - name: Pandator
     grade:  "Première Classe"
   - name: Dogg
     grade:  "Première Classe"
+  - name: Redligne
+    grade:  "Première Classe"
   - name: Quizzi
     grade:  "Première Classe"
   - name: Thunderdome
+    grade:  "Première Classe"
+  - name: Barbosa
     grade:  "Première Classe"
