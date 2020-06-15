@@ -2,6 +2,7 @@
 name: "Sable Rouge"
 dates: "Mars 2020"
 date: 01-03-2020
+pic: 1
 ---
 Depuis les événements de 2016, la région centrale du Takistan est relativement stable. L’armée takistanaise a repris le contrôle de la zone et poursuit la lutte contre les milices djihadistes locales. Les forces de l’OTAN maintiennent toutefois une force de présence réduite dans le pays, pour s’assurer du respect du droit international et pour entraîner l’armée régulière.
 

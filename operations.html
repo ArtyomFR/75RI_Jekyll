@@ -5,7 +5,13 @@ title: "Opérations"
 <section>
   <div class="container">
     {% for operation in site.operations reversed %}
+    {% if operation.pic == 1 %}
+    <img class="operationpic" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_pic.png"/>
+    {% endif %}
     <h2 class="text-center">{{ operation.name }}</h2>
+    {% if operation.pic == 1 %}
+    <img class="operationreward" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
+    {% endif %}
     <h4 class="text-center">{{ operation.dates}}</h4>
     <hr/>
     <div class="row">
