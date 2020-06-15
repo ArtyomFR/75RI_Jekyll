@@ -1,11 +1,12 @@
 # Site settings
-title: "75RI"
+title: "Le 75e Régiment"
 subtitle: "Équipe de jeu semi-milsim sur ArmA 3"
 email: ""
 author: ""
 description: ""
 url: ""
 baseurl: "/75RI_Jekyll_Theme"
+discordurl: "https://discord.gg/EXCWHWr"
 
 # Collections
 collections:
