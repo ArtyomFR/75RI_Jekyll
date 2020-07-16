@@ -1,4 +1,21 @@
   - name: Soviet
     grade: "Capitaine"
+    incorporation: "2014"
+    operations:
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
+      - "Aux quatre vents"
+
   - name: Neomega
     grade: "Lieutenant"
+    incorporation: "2013"
+    operations:
+      - "Fallout"
+      - "Malden"

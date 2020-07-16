@@ -7,3 +7,34 @@ width: 128px;
 padding-bottom: 16px;
 padding-top: 16px;
 }
+
+.profilepic
+{
+width: 30%;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.personaloperationreward
+{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 400px;
+    overflow-y: auto;
+}
+.modal-header{
+  background-color: $dark;
+}
+.modal-footer{
+  background-color: $dark;
+}
