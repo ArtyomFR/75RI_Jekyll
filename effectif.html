@@ -9,7 +9,7 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.officier %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de ', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
         {{ item.grade }}<br/>
         <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal-{{ item.name }}">
@@ -23,7 +23,7 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.sousofficier %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de ', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
         {{ item.grade }}
       </div>
@@ -34,7 +34,18 @@ title: "Effectif"
     <div class="row justify-content-center">
     {% for item in site.data.effectif.militairedurang %}
       <div class="col-sm-3">
-        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de ', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
+        <h3>{{ item.name }}</h3>
+        {{ item.grade }}
+      </div>
+    {% endfor %}
+    </div>
+    <h2>Réserve</h2>
+    <hr/>
+    <div class="row justify-content-center">
+    {% for item in site.data.effectif.reserve %}
+      <div class="col-sm-3">
+        <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
         {{ item.grade }}
       </div>

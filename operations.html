@@ -3,22 +3,51 @@ layout: default
 title: "Opérations"
 ---
 <section>
-  <div class="container">
+  <div class="container text-center">
+    <div class="row justify-content-center">
     {% for operation in site.operations reversed %}
-    {% if operation.pic == 1 %}
-    <img class="operationpic" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_pic.png"/>
-    {% endif %}
-    <h2 class="text-center">{{ operation.name }}</h2>
-    {% if operation.pic == 1 %}
-    <img class="operationreward" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
-    {% endif %}
-    <h4 class="text-center">{{ operation.dates}}</h4>
-    <hr/>
-    <div class="row">
-      <div class="col">
-        {{ operation.content }}
+      <div class="col-sm-4">
+        <h2 class="text-center">{{ operation.name }}</h2>
+        {% if operation.pic == 1 %}
+        <img class="operationreward" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
+        {% endif %}
+        <h4 style="height: 2em;" class="text-center">{{ operation.dates}}</h4>
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal-{{ operation.name }}">
+          Résumé
+        </button>
+        <hr/>
+      </div>
+    {% endfor %}
+    </div>
+
+  {% for operation in site.operations %}
+  <!-- The Modal -->
+  <div class="modal fade" id="Modal-{{ operation.name }}">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          {% if operation.pic == 1 %}
+          <img class="operationpic" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_pic.png"/>
+          {% endif %}
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Résumé de l'opération</h3>
+          <hr/>
+          {{ operation.content }}
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
       </div>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
+
 </section>

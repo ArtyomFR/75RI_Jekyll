@@ -1,44 +1,31 @@
-  - name: Ragarnoy
-    grade:  "Caporal-chef"
+
   - name: Toto
+    grade:  "Caporal-chef de première classe"
+  - name: Niko
+    grade:  "Caporal-chef de première classe"
+  - name: Amnezyk
     grade:  "Caporal-chef"
-  - name: Salsifi
+  - name: Reaper
     grade:  "Caporal-chef"
-  - name: Bleack
-    grade:  "Caporal"
-  - name: Kléber
-    grade:  "Caporal"
-  - name: Alta
-    grade:  "Caporal"
-  - name: Locklan
-    grade:  "Caporal"
-  - name: Vico
+  - name: Aerial
     grade:  "Caporal"
   - name: Soaper
     grade:  "Caporal"
-  - name: Bastien
-    grade:  "Caporal"
-  - name: Sami
-    grade:  "Caporal"
-  - name: Niko
-    grade:  "Caporal"
-  - name: Reaper
-    grade:  "Caporal"
-  - name: A.X.
-    grade:  "Caporal"
-  - name: Sonnok
-    grade:  "Caporal"
   - name: Prisci
     grade:  "Caporal"
-  - name: Pandator
+  - name: Thunder
+    grade:  "Caporal"
+  - name: Ragarnoy
+    grade:  "Caporal"
+  - name: Salsifi
+    grade:  "Caporal"
+  - name: Bleack
+    grade:  "Caporal"
+  - name: Locklan
+    grade:  "Caporal"
+  - name: Kléber
     grade:  "Première Classe"
-  - name: Dogg
+  - name: Muiron
     grade:  "Première Classe"
-  - name: Redligne
-    grade:  "Première Classe"
-  - name: Quizzi
-    grade:  "Première Classe"
-  - name: Thunderdome
-    grade:  "Première Classe"
-  - name: Barbosa
-    grade:  "Première Classe"
+  - name: Mika
+    grade:  "Soldat"

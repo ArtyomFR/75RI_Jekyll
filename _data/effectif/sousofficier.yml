@@ -1,16 +1,10 @@
   - name: Heavy
     grade: "Major"
   - name: Artyom
-    grade: "Adjudant"
+    grade: "Sergent-chef"
   - name: Endeavour
-    grade: "Adjudant"
+    grade: "Sergent"
   - name: Yodi
-    grade: "Sergent-chef"
+    grade: "Sergent"
   - name: Tchou
-    grade: "Sergent-chef"
-  - name: MR6
-    grade: "Sergent"
-  - name: Siera
-    grade: "Sergent"
-  - name: Amnezyk
     grade: "Sergent"

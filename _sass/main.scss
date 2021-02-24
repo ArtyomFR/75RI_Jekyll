@@ -38,3 +38,14 @@ hr {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+button {
+  text-transform: uppercase;
+  color: $dark-light !important;
+  font-weight: 700 !important;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
