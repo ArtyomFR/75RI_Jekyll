@@ -1,6 +1,11 @@
   - name: Soviet
     grade: "Capitaine"
     incorporation: "2014"
+    brevets:
+      - "Chef de section"
+      - "Chef de groupe"
+      - "Chef d'équipe"
+      - "Parachutiste"
     operations:
       - "Bitter Ice"
       - "Ruha River"
@@ -19,6 +24,8 @@
   - name: Neomega
     grade: "Lieutenant"
     incorporation: "2013"
+    brevets:
+      - "Médecin"
     operations:
       - "Fallout"
       - "Malden"

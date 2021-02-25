@@ -65,16 +65,28 @@ title: "Effectif"
         </div>
 
         <!-- Modal body -->
-        <div class="modal-body">
+        <div class="modal-body dossier">
           <h3>Informations</h3>
-          Pseudo: {{ item.name }}<br/>
-          Grade: {{ item.grade }}<br/>
-          Ancienneté: {{ item.incorporation}}<br/>
+          <hr/>
+          <b>Pseudo:</b> {{ item.name }}<br/>
+          <b>Grade:</b> {{ item.grade }}<br/>
+          <b>Incorporation:</b> {{ item.incorporation}}<br/>
+          <h3>Brevets</h3>
+          <hr/>
+          <div class="row justify-content-center">
+            {% for brevet in item.brevets %}
+              <div class="col-3 text-center">
+                <img class="personalreward" src="assets/img/brevets/{{ item.brevets[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}.png"/>
+                {{ item.brevets[forloop.index0] }}
+              </div>
+            {% endfor %}
+          </div>
           <h3>Opérations</h3>
+          <hr/>
             <div class="row justify-content-center">
             {% for operation in item.operations %}
               <div class="col-3 text-center">
-                <img class="personaloperationreward" src="assets/img/operations/{{ item.operations[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
+                <img class="personalreward" src="assets/img/operations/{{ item.operations[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
                 {{ item.operations[forloop.index0] }}
               </div>
             {% endfor %}
