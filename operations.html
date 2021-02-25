@@ -12,7 +12,7 @@ title: "Opérations"
         <img class="operationreward" src="assets/img/operations/{{ operation.name | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
         {% endif %}
         <h4 style="height: 2em;" class="text-center">{{ operation.dates}}</h4>
-        <button style="text-transform: uppercase;color: $dark-light; font-weight: 700;" type="button" class="btn btn-light" data-toggle="modal" data-target="#Modal-{{ operation.name }}">
+        <button style="text-transform: uppercase;color: $dark-light; font-weight: 700;" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal-{{ operation.name }}">
           Résumé
         </button>
         <hr/>
@@ -42,7 +42,7 @@ title: "Opérations"
 
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
         </div>
 
       </div>
