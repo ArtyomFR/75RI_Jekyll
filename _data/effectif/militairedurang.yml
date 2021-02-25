@@ -1,18 +1,108 @@
-
   - name: Toto
     grade:  "Caporal-chef de première classe"
+    incorporation: "2015"
+    brevets:
+      - "Chef d'équipe"
+      - "Médecin"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
   - name: Niko
     grade:  "Caporal-chef de première classe"
+    incorporation: "2014"
+    brevets:
+      - "Chef d'équipe"
+      - "Médecin"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
+      - "Aux quatre vents"
   - name: Amnezyk
     grade:  "Caporal-chef"
   - name: Reaper
     grade:  "Caporal-chef"
+    incorporation: "2016"
+    brevets:
+      - "Chef de groupe"
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
   - name: Aerial
     grade:  "Caporal"
+  - name: Siera
+    grade: "Caporal"
+    incorporation: "2014"
+    brevets:
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
   - name: Soaper
     grade:  "Caporal"
+    incorporation: "2014"
+    brevets:
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
+      - "Aux quatre vents"
   - name: Prisci
     grade:  "Caporal"
+    incorporation: "2020"
+    brevets:
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
   - name: Thunder
     grade:  "Caporal"
   - name: Ragarnoy
@@ -21,8 +111,35 @@
     grade:  "Caporal"
   - name: Bleack
     grade:  "Caporal"
+    incorporation: "2015"
+    brevets:
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
   - name: Locklan
     grade:  "Caporal"
+    incorporation: "2016"
+    brevets:
+      - "Chef de section"
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Trident"
+      - "Last Crusade"
   - name: Kléber
     grade:  "Première Classe"
   - name: Muiron

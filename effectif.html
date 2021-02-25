@@ -25,7 +25,10 @@ title: "Effectif"
       <div class="col-sm-3">
         <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de ', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
-        {{ item.grade }}
+        {{ item.grade }}<br/>
+        <button style="text-transform: uppercase;color: $dark-light; font-weight: 700;" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal-{{ item.name }}">
+          Dossier
+        </button>
       </div>
     {% endfor %}
     </div>
@@ -36,7 +39,10 @@ title: "Effectif"
       <div class="col-sm-3">
         <img class="grade" src="assets/img/grades/{{ item.grade | downcase | replace: 'de ', '' | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' }}.png" />
         <h3>{{ item.name }}</h3>
-        {{ item.grade }}
+        {{ item.grade }}<br/>
+        <button style="text-transform: uppercase;color: $dark-light; font-weight: 700;" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal-{{ item.name }}">
+          Dossier
+        </button>
       </div>
     {% endfor %}
     </div>
@@ -61,7 +67,107 @@ title: "Effectif"
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <img class="profilepic" src="assets/img/effectif/{{ item.name | downcase }}.png"/>
+          <img class="profilepic" src="assets/img/effectif/{{ item.name }}.png"/>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body dossier">
+          <h3>Informations</h3>
+          <hr/>
+          <b>Pseudo:</b> {{ item.name }}<br/>
+          <b>Grade:</b> {{ item.grade }}<br/>
+          <b>Incorporation:</b> {{ item.incorporation}}<br/>
+          <h3>Brevets</h3>
+          <hr/>
+          <div class="row justify-content-center">
+            {% for brevet in item.brevets %}
+              <div class="col-3 text-center">
+                <img class="personalreward" src="assets/img/brevets/{{ item.brevets[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}.png"/>
+                {{ item.brevets[forloop.index0] }}
+              </div>
+            {% endfor %}
+          </div>
+          <h3>Opérations</h3>
+          <hr/>
+            <div class="row justify-content-center">
+            {% for operation in item.operations %}
+              <div class="col-3 text-center">
+                <img class="personalreward" src="assets/img/operations/{{ item.operations[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
+                {{ item.operations[forloop.index0] }}
+              </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for item in site.data.effectif.sousofficier %}
+  <!-- The Modal -->
+  <div class="modal fade" id="Modal-{{ item.name }}">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <img class="profilepic" src="assets/img/effectif/{{ item.name }}.png"/>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body dossier">
+          <h3>Informations</h3>
+          <hr/>
+          <b>Pseudo:</b> {{ item.name }}<br/>
+          <b>Grade:</b> {{ item.grade }}<br/>
+          <b>Incorporation:</b> {{ item.incorporation}}<br/>
+          <h3>Brevets</h3>
+          <hr/>
+          <div class="row justify-content-center">
+            {% for brevet in item.brevets %}
+              <div class="col-3 text-center">
+                <img class="personalreward" src="assets/img/brevets/{{ item.brevets[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}.png"/>
+                {{ item.brevets[forloop.index0] }}
+              </div>
+            {% endfor %}
+          </div>
+          <h3>Opérations</h3>
+          <hr/>
+            <div class="row justify-content-center">
+            {% for operation in item.operations %}
+              <div class="col-3 text-center">
+                <img class="personalreward" src="assets/img/operations/{{ item.operations[forloop.index0] | downcase | replace: ' ', '_' | replace: 'é','e' | replace: 'è','e' | replace: '’','' }}_reward.png"/>
+                {{ item.operations[forloop.index0] }}
+              </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for item in site.data.effectif.militairedurang %}
+  <!-- The Modal -->
+  <div class="modal fade" id="Modal-{{ item.name }}">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <img class="profilepic" src="assets/img/effectif/{{ item.name }}.png"/>
         </div>
 
         <!-- Modal body -->
