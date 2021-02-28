@@ -56,6 +56,16 @@
       - "Last Crusade"
   - name: Aerial
     grade:  "Caporal"
+    incorporation: "2014"
+    brevets:
+    operations:
+      - "Bitter Ice"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
   - name: Siera
     grade: "Caporal"
     incorporation: "2014"
