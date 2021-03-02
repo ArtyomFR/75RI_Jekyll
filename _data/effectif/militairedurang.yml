@@ -38,6 +38,19 @@
       - "Aux quatre vents"
   - name: Amnezyk
     grade:  "Caporal-chef"
+    incorporation: "2014"
+    brevets:
+      - "Chef de groupe"
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "62’"
+      - "Fennec"
+      - "Aux quatre vents"
   - name: Reaper
     grade:  "Caporal-chef"
     incorporation: "2016"
