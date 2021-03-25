@@ -3,11 +3,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <squad nick="75RI">
-    <name>75e Régiment d&#039;Infanterie</name>
+    <name>75e Régiment d&#039;Infanterie - Groupe semi-realsim</name>
     <email>N/A</email>
     <web>https://www.le75e.fr/</web>
     <picture>logo.paa</picture>
-    <title>Régiment semi-realsim</title>
+    <title>75RI</title>
     {% for item in site.data.effectif.officier %}
     <member id="{{ item.UID }}" nick="{{ item.name }}">
         <name>N/A</name>
