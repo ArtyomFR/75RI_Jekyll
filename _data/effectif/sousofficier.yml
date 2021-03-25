@@ -1,4 +1,5 @@
   - name: Heavy
+    UID: 76561198050036166
     grade: "Major"
     incorporation: "2015"
     brevets:
@@ -16,6 +17,7 @@
       - "Last Crusade"
       - "Fallout"
   - name: Artyom
+    UID: 76561198041054628
     grade: "Sergent-chef"
     incorporation: "2013"
     brevets:
@@ -36,6 +38,7 @@
       - "Fennec"
       - "Aux quatre vents"
   - name: Endeavour
+    UID: 76561197972605197
     grade: "Sergent"
     incorporation: "2015"
     brevets:
@@ -56,6 +59,7 @@
       - "Fallout"
       - "62’"
   - name: Yodi
+    UID:
     grade: "Sergent"
     incorporation: "2016"
     brevets:
@@ -73,11 +77,11 @@
       - "Trident"
       - "Last Crusade"
       - "Fallout"
-  - name: Tchou
-    grade: "Sergent"
-    incorporation: "2015"
+  - name: Reaper
+    UID: 76561197988724065
+    grade:  "Élève Sous-Officier"
+    incorporation: "2016"
     brevets:
-      - "Chef de section"
       - "Chef de groupe"
       - "Chef d'équipe"
     operations:
@@ -90,4 +94,9 @@
       - "Balafre"
       - "Trident"
       - "Last Crusade"
-      - "Fallout"
+  - name: Peacewalker
+    UID:
+    grade:  "Élève Sous-Officier"
+    incorporation: "2021"
+    brevets:
+    operations:

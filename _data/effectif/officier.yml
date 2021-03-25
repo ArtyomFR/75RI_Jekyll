@@ -1,4 +1,5 @@
   - name: Soviet
+    UID: 76561198063483878
     grade: "Capitaine"
     incorporation: "2014"
     brevets:
@@ -21,6 +22,7 @@
       - "Fennec"
       - "Aux quatre vents"
   - name: Neomega
+    UID: 76561198079622646
     grade: "Lieutenant"
     incorporation: "2013"
     brevets:
@@ -39,3 +41,22 @@
       - "62’"
       - "Fennec"
       - "Aux quatre vents"
+  - name: Tchou
+    UID: 76561197991906556
+    grade: "Élève Officier"
+    incorporation: "2015"
+    brevets:
+      - "Chef de section"
+      - "Chef de groupe"
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"

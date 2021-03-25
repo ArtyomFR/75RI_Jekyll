@@ -1,4 +1,5 @@
   - name: Toto
+    UID: 76561198055353056
     grade:  "Caporal-chef de première classe"
     incorporation: "2015"
     brevets:
@@ -17,6 +18,7 @@
       - "Fallout"
       - "62’"
   - name: Niko
+    UID: 76561197992760609
     grade:  "Caporal-chef de première classe"
     incorporation: "2014"
     brevets:
@@ -37,6 +39,7 @@
       - "Fennec"
       - "Aux quatre vents"
   - name: Amnezyk
+    UID:
     grade:  "Caporal-chef"
     incorporation: "2014"
     brevets:
@@ -51,54 +54,9 @@
       - "62’"
       - "Fennec"
       - "Aux quatre vents"
-  - name: Reaper
-    grade:  "Caporal-chef"
-    incorporation: "2016"
-    brevets:
-      - "Chef de groupe"
-      - "Chef d'équipe"
-    operations:
-      - "Bitter Ice"
-      - "Ruha River"
-      - "Caracal"
-      - "Sang Bleu"
-      - "Sable Rouge"
-      - "Malden"
-      - "Balafre"
-      - "Trident"
-      - "Last Crusade"
-  - name: Aerial
-    grade:  "Caporal"
-    incorporation: "2014"
-    brevets:
-    operations:
-      - "Bitter Ice"
-      - "Caracal"
-      - "Sang Bleu"
-      - "Last Crusade"
-      - "Fallout"
-      - "62’"
-      - "Fennec"
-  - name: Siera
-    grade: "Caporal"
-    incorporation: "2014"
-    brevets:
-      - "Chef d'équipe"
-    operations:
-      - "Bitter Ice"
-      - "Ruha River"
-      - "Caracal"
-      - "Sang Bleu"
-      - "Sable Rouge"
-      - "Malden"
-      - "Balafre"
-      - "Trident"
-      - "Last Crusade"
-      - "Fallout"
-      - "62’"
-      - "Fennec"
   - name: Soaper
-    grade:  "Caporal"
+    UID: 76561198065570123
+    grade:  "Caporal-chef"
     incorporation: "2014"
     brevets:
       - "Chef d'équipe"
@@ -116,24 +74,9 @@
       - "62’"
       - "Fennec"
       - "Aux quatre vents"
-  - name: Prisci
-    grade:  "Caporal"
-    incorporation: "2020"
-    brevets:
-    operations:
-      - "Bitter Ice"
-      - "Ruha River"
-      - "Caracal"
-      - "Sang Bleu"
-      - "Sable Rouge"
-  - name: Thunder
-    grade:  "Caporal"
-  - name: Ragarnoy
-    grade:  "Caporal"
-  - name: Salsifi
-    grade:  "Caporal"
   - name: Bleack
-    grade:  "Caporal"
+    UID: 76561198013167891
+    grade:  "Caporal-chef"
     incorporation: "2015"
     brevets:
       - "Chef d'équipe"
@@ -148,7 +91,58 @@
       - "Trident"
       - "Last Crusade"
       - "Fallout"
+  - name: Siera
+    UID: 76561198050704277
+    grade: "Caporal-chef"
+    incorporation: "2014"
+    brevets:
+      - "Chef d'équipe"
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+      - "Malden"
+      - "Balafre"
+      - "Trident"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
+  - name: Aerial
+    UID:
+    grade:  "Caporal"
+    incorporation: "2014"
+    brevets:
+    operations:
+      - "Bitter Ice"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Last Crusade"
+      - "Fallout"
+      - "62’"
+      - "Fennec"
+  - name: Prisci
+    UID: 76561198060515638
+    grade:  "Caporal"
+    incorporation: "2020"
+    brevets:
+    operations:
+      - "Bitter Ice"
+      - "Ruha River"
+      - "Caracal"
+      - "Sang Bleu"
+      - "Sable Rouge"
+  - name: Thunder
+    grade:  "Caporal"
+  - name: Ragarnoy
+    UID: 76561197970213453
+    grade:  "Caporal"
+  - name: Salsifi
+    grade:  "Caporal"
   - name: Locklan
+    UID: 76561198006862151
     grade:  "Caporal"
     incorporation: "2016"
     brevets:
@@ -163,9 +157,28 @@
       - "Malden"
       - "Trident"
       - "Last Crusade"
+  - name: Muiron
+    grade:  "Caporal"
   - name: Kléber
     grade:  "Première Classe"
-  - name: Muiron
-    grade:  "Première Classe"
   - name: Mika
-    grade:  "Soldat"
+    grade:  "Première Classe"
+  - name: Ben
+    grade:  "Première Classe"
+  - name: Thony
+    UID: 76561198150407155
+    grade:  "Première Classe"
+  - name: Tyjous
+    grade:  "Première Classe"
+  - name: Zotox
+    grade:  "Première Classe"
+  - name: Jedi
+    UID: 76561198142812944
+    grade:  "Première Classe"
+  - name: Hyzzen
+    UID: 76561198169915290
+    grade:  "Première Classe"
+  - name: Renzo
+    grade:  "Première Classe"
+  - name: Roro
+    grade:  "Première Classe"
