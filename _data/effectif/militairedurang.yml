@@ -146,7 +146,6 @@
     grade:  "Caporal"
     incorporation: "2016"
     brevets:
-      - "Chef de section"
       - "Chef d'équipe"
     operations:
       - "Bitter Ice"
