@@ -110,19 +110,6 @@
       - "Fallout"
       - "62’"
       - "Fennec"
-  - name: Aerial
-    UID:
-    grade:  "Caporal"
-    incorporation: "2014"
-    brevets:
-    operations:
-      - "Bitter Ice"
-      - "Caracal"
-      - "Sang Bleu"
-      - "Last Crusade"
-      - "Fallout"
-      - "62’"
-      - "Fennec"
   - name: Prisci
     UID: 76561198060515638
     grade:  "Caporal"
@@ -158,7 +145,7 @@
       - "Last Crusade"
   - name: Muiron
     grade:  "Caporal"
-  - name: Kléber
+  - name: Nikosu
     grade:  "Première Classe"
   - name: Mika
     grade:  "Première Classe"
