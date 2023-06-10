@@ -1,6 +1,7 @@
-- name: Vietnam
-  ip:   le75e.fr
-  port: 2302
-- name: Teamspeak
-  ip:   164.132.201.51
-  port: 9987
+# Supression des serveurs car très rapidement supprimés par Gamestracker.
+# - name: Vietnam
+#   ip:   le75e.fr
+#   port: 2302
+# - name: Teamspeak
+#   ip:   164.132.201.51
+#   port: 9987

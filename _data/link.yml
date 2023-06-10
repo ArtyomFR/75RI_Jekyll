@@ -2,7 +2,10 @@
   url: https://discord.gg/yBjRFQM4A8
 - name: steam
   url: https://steamcommunity.com/groups/Le75e
-- name: teamspeak
-  url: ts3server://le75e.fr
+# Teamspeak removed because only used for ArmA VOIP.
+# - name: teamspeak
+#   url: ts3server://le75e.fr
 - name: twitter
   url: https://twitter.com/Le75e
+- name: instagram
+  url: https://www.instagram.com/le75e.fr/
